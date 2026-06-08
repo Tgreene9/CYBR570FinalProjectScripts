@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+Script to query MalwareBazaar for similar Mirai IOT botnet samples.
+"""
 import argparse
 import csv
 import hashlib
