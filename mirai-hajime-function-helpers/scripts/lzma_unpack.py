@@ -8,7 +8,7 @@ stream with lc+lp>4, which is why the earlier approach failed. This is a full
 reference LZMA1 decoder with no such cap, so it decodes exactly what the on-target
 stub decodes.
 
-It NEVER executes the sample -- it only reads bytes and decompresses, so it is
+It NEVER executes the sample, it only reads bytes and decompresses, so it is
 completely safe to run on the host (no qemu, no container needed).
 
 Usage:   python3 lzma_unpack.py            # processes ./Hajime*.elf
