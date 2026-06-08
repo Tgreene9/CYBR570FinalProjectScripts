@@ -12,13 +12,10 @@ This repository contains only helper scripts and documentation. It does **not** 
 mirai-hajime-function-helpers/
 ├── README.md
 ├── requirements.txt
-├── .gitignore
 ├── scripts/
 │   ├── find_groundtruth_similar.py
 │   ├── lzma_unpack.py
 │   └── wrap_elf.py
-└── docs/
-    └── function_notes.md
 ```
 
 ## Scripts
