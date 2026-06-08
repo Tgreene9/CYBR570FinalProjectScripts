@@ -9,13 +9,14 @@ This repository contains only helper scripts and documentation. It does **not** 
 ## Repository Contents
 
 ```text
-mirai-hajime-function-helpers/
+CYBR570FinalProjectScripts/
 ├── README.md
-├── requirements.txt
-├── scripts/
-│   ├── find_groundtruth_similar.py
-│   ├── lzma_unpack.py
-│   └── wrap_elf.py
+└── mirai-hajime-function-helpers/
+    ├── requirements.txt
+    └── scripts/
+        ├── find_groundtruth_similar.py
+        ├── lzma_unpack.py
+        └── wrap_elf.py
 ```
 
 ## Scripts
