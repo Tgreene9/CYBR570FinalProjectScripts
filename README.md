@@ -284,16 +284,3 @@ Expected high-level result:
 - Mirai and Hajime do not appear to be source-code sisters based on the functions analyzed.
 - Hajime appears more like an evolutionary response to Mirai in the same IoT worm ecosystem than a fork of Mirai.
 
-## Safety Notes
-
-Do not upload or commit:
-
-- `.elf` malware samples
-- `_unpacked.bin` files
-- `_unpacked.elf` files
-- MalwareBazaar API keys
-- Ghidra project files
-- BSim database files
-- Raw sample archives
-
-This repository is only for helper scripts, documentation, and reproducibility notes.
